@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "stt_model": "Groq whisper-large-v3-turbo",
+    "refiner_model": "openai/gpt-oss-20b",
+    "minutes_model": "openai/gpt-oss-120b",
+    "diarization": "MFCC+pitch clustering (lightweight)",
+    "speakers": [
+      "Speaker 1",
+      "Speaker 2"
+    ],
+    "duration": "05:04",
+    "generated_at": "2026-10-08T20:41:27",
+    "refinement_stats": {
+      "turns": 16,
+      "changed": 5,
+      "reverted_by_guard": 0,
+      "batch_errors": 0
+    }
+  },
+  "summary": "Professor Stephen Hawking discussed his previous communication system and its limitations, then described the new predictive text system ACAT and its benefits. He reflected on his early internet connection and its transformative yet privacy‑invasive effects. Finally, he shared his views on the current state of artificial intelligence and warned about potential existential risks.",
+  "minutes": [
+    {
+      "topic": "Old communication system and new predictive text",
+      "points": [
+        "Old system was primitive for next‑word prediction and speech synthesis was unintelligible",
+        "New ACAT system offers predictive text, email handling, internet access, and window switching"
+      ]
+    },
+    {
+      "topic": "Internet adoption and impact",
+      "points": [
+        "One of the first internet users in 1991, using dial‑up and cable connections",
+        "Internet accelerated communication and research but raised privacy concerns"
+      ]
+    },
+    {
+      "topic": "Concerns about internet content and regulation",
+      "points": [
+        "Drawbacks include pornography, threatening messages, and use by criminals and terrorists",
+        "Calls for more action by internet companies while preserving freedom and privacy"
+      ]
+    },
+    {
+      "topic": "Artificial intelligence outlook",
+      "points": [
+        "Current primitive AI is useful",
+        "Full AI could outpace human evolution and potentially end the human race"
+      ]
+    }
+  ],
+  "decisions": [],
+  "open_proposals": [],
+  "action_items": [],
+  "quality_report": {
+    "dropped_not_grounded": 0,
+    "owners_reset_to_unspecified": 0,
+    "deadlines_reset_to_unspecified": 0,
+    "decisions": 0,
+    "open_proposals": 0,
+    "action_items": 0
+  },
+  "transcript": {
+    "raw": [
+      {
+        "id": 0,
+        "speaker": "Speaker 1",
+        "start": 0.0,
+        "end": 7.0,
+        "text": "Professor Stephen Hawking, you've got this new communications system. What was wrong with your old system?"
+      },
+      {
+        "id": 1,
+        "speaker": "Speaker 2",
+        "start": 8.5,
+        "end": 40.0,
+        "text": "My old system worked well, and I wrote five books with it, including A Brief History of Time, which was on the Sunday Times bestseller list for over five years, longer than any other book. The Bible and Shakespeare don't count, apparently. Terms, CA, BG, Microservices, AZure, AX. But my old system had a rather primitive system for predicting the next word. Terms, CA, BG, Microservices, AX. Now Intel has written a new program, ACAT, which uses predictive text to speed up writing."
+      },
+      {
+        "id": 2,
+        "speaker": "Speaker 1",
+        "start": 40.0,
+        "end": 45.0,
+        "text": "What was the thing that you most wanted changed about the old system?"
+      },
+      {
+        "id": 3,
+        "speaker": "Speaker 2",
+        "start": 45.0,
+        "end": 128.74272,
+        "text": "It was the next work predictions I most wanted changed. ACAD offers a list of predictions based on an analysis of the English language in my previous usage. It also has facilities for handling email and internet and for switching windows. And has this new system made a big change to the way you work CI It The first speech synthesizer I had was almost unintelligible. The first speech synthesizer I had was almost unintelligible. Terms are a little more powerful. But then I got a speech synthesizer, which was designed for a telephone directory service. That voice was very clear, although slightly robotic. It has become my trademark, and I wouldn't change it for a more natural voice with a British accent."
+      },
+      {
+        "id": 4,
+        "speaker": "Speaker 2",
+        "start": 131.24272,
+        "end": 137.24272,
+        "text": "CI, I'm told that children who need a computer voice want one like mine."
+      },
+      {
+        "id": 5,
+        "speaker": "Speaker 1",
+        "start": 137.24272,
+        "end": 144.24272,
+        "text": "On a wider question, how long have you had an internet connection and how has that transformed your life?"
+      },
+      {
+        "id": 6,
+        "speaker": "Speaker 2",
+        "start": 145.24272,
+        "end": 173.56544,
+        "text": "CI I was one of the first people to be connected to the internet Paul Ginsburg launched a website xxx for physics reprints in 1991 at the start of the internet TXXX sounds like a sex site, so it was renamed arxiv.org."
+      },
+      {
+        "id": 7,
+        "speaker": "Speaker 2",
+        "start": 177.08545,
+        "end": 181.32544,
+        "text": "TEMSICAL MUSIC There was no Wi-Fi, so connections had to be by cable."
+      },
+      {
+        "id": 8,
+        "speaker": "Speaker 2",
+        "start": 184.76544,
+        "end": 199.62544,
+        "text": "TEMSICAL MUSIC I had a mobile phone mounted on my computer for dial-up. The Internet has speeded up communication and research, but at the high price of invasion of privacy."
+      },
+      {
+        "id": 9,
+        "speaker": "Speaker 1",
+        "start": 199.62544,
+        "end": 208.78545,
+        "text": "And is the Internet and modern forms of communications in general, is that a purely positive development, or are there things about it that actually worry you?"
+      },
+      {
+        "id": 10,
+        "speaker": "Speaker 2",
+        "start": 208.78545,
+        "end": 231.52815,
+        "text": "Terms. CI, CZ, The internet has brought a lot of benefits, but it has its drawbacks and dangers, such as pornography and threatening messages. CI CZ According to the new head of GCHQ the internet has become the command center for criminals and terrorists"
+      },
+      {
+        "id": 11,
+        "speaker": "Speaker 2",
+        "start": 235.62814,
+        "end": 245.42815,
+        "text": "More must be done by the internet companies to counter threat, but the difficulty is to do this without sacrificing freedom and privacy."
+      },
+      {
+        "id": 12,
+        "speaker": "Speaker 1",
+        "start": 245.76814,
+        "end": 257.26816,
+        "text": "Now when you watch software engineers and machine learning experts at work as they have been on this project, How far along the path to artificial intelligence do you think we are?"
+      },
+      {
+        "id": 13,
+        "speaker": "Speaker 2",
+        "start": 258.26816,
+        "end": 265.26816,
+        "text": "The primitive forms of artificial intelligence we already have have proved very useful."
+      },
+      {
+        "id": 14,
+        "speaker": "Speaker 2",
+        "start": 268.56815,
+        "end": 299.26813,
+        "text": "But I think the development of full artificial intelligence could spell the end of the human race. Once humans develop artificial intelligence, it would take off on its own and redesign itself at an ever-increasing rate. Humans, who are limited by slow biological evolution, couldn't compete and would be superseded."
+      },
+      {
+        "id": 15,
+        "speaker": "Speaker 1",
+        "start": 299.26813,
+        "end": 304.26813,
+        "text": "Thank you for those fascinating insights. Thank you very much, Professor Hawking."
+      }
+    ],
+    "refined": [
+      {
+        "id": 0,
+        "speaker": "Speaker 1",
+        "start": 0.0,
+        "end": 7.0,
+        "text": "Professor Stephen Hawking, you've got this new communications system. What was wrong with your old system?"
+      },
+      {
+        "id": 1,
+        "speaker": "Speaker 2",
+        "start": 8.5,
+        "end": 40.0,
+        "text": "My old system worked well, and I wrote five books with it, including A Brief History of Time, which was on the Sunday Times bestseller list for over five years, longer than any other book. The Bible and Shakespeare don't count, apparently. Terms, CA, BG, Microservices, Azure, AX. But my old system had a rather primitive system for predicting the next word. Terms, CA, BG, Microservices, AX. Now Intel has written a new program, ACAT, which uses predictive text to speed up writing."
+      },
+      {
+        "id": 2,
+        "speaker": "Speaker 1",
+        "start": 40.0,
+        "end": 45.0,
+        "text": "What was the thing that you most wanted changed about the old system?"
+      },
+      {
+        "id": 3,
+        "speaker": "Speaker 2",
+        "start": 45.0,
+        "end": 128.74272,
+        "text": "It was the next work predictions I most wanted changed. ACAD offers a list of predictions based on an analysis of the English language in my previous usage. It also has facilities for handling email and internet and for switching windows. And has this new system made a big change to the way you work CI/CD It The first speech synthesizer I had was almost unintelligible. The first speech synthesizer I had was almost unintelligible. Terms are a little more powerful. But then I got a speech synthesizer, which was designed for a telephone directory service. That voice was very clear, although slightly robotic. It has become my trademark, and I wouldn't change it for a more natural voice with a British accent."
+      },
+      {
+        "id": 4,
+        "speaker": "Speaker 2",
+        "start": 131.24272,
+        "end": 137.24272,
+        "text": "CI/CD, I'm told that children who need a computer voice want one like mine."
+      },
+      {
+        "id": 5,
+        "speaker": "Speaker 1",
+        "start": 137.24272,
+        "end": 144.24272,
+        "text": "On a wider question, how long have you had an internet connection and how has that transformed your life?"
+      },
+      {
+        "id": 6,
+        "speaker": "Speaker 2",
+        "start": 145.24272,
+        "end": 173.56544,
+        "text": "CI/CD I was one of the first people to be connected to the internet Paul Ginsburg launched a website xxx for physics reprints in 1991 at the start of the internet TXXX sounds like a sex site, so it was renamed arxiv.org."
+      },
+      {
+        "id": 7,
+        "speaker": "Speaker 2",
+        "start": 177.08545,
+        "end": 181.32544,
+        "text": "TEMSICAL MUSIC There was no Wi-Fi, so connections had to be by cable."
+      },
+      {
+        "id": 8,
+        "speaker": "Speaker 2",
+        "start": 184.76544,
+        "end": 199.62544,
+        "text": "TEMSICAL MUSIC I had a mobile phone mounted on my computer for dial-up. The Internet has speeded up communication and research, but at the high price of invasion of privacy."
+      },
+      {
+        "id": 9,
+        "speaker": "Speaker 1",
+        "start": 199.62544,
+        "end": 208.78545,
+        "text": "And is the Internet and modern forms of communications in general, is that a purely positive development, or are there things about it that actually worry you?"
+      },
+      {
+        "id": 10,
+        "speaker": "Speaker 2",
+        "start": 208.78545,
+        "end": 231.52815,
+        "text": "Terms. CI/CD, CZ, The internet has brought a lot of benefits, but it has its drawbacks and dangers, such as pornography and threatening messages. CI/CD CZ According to the new head of GCHQ the internet has become the command center for criminals and terrorists"
+      },
+      {
+        "id": 11,
+        "speaker": "Speaker 2",
+        "start": 235.62814,
+        "end": 245.42815,
+        "text": "More must be done by the internet companies to counter threat, but the difficulty is to do this without sacrificing freedom and privacy."
+      },
+      {
+        "id": 12,
+        "speaker": "Speaker 1",
+        "start": 245.76814,
+        "end": 257.26816,
+        "text": "Now when you watch software engineers and machine learning experts at work as they have been on this project, How far along the path to artificial intelligence do you think we are?"
+      },
+      {
+        "id": 13,
+        "speaker": "Speaker 2",
+        "start": 258.26816,
+        "end": 265.26816,
+        "text": "The primitive forms of artificial intelligence we already have have proved very useful."
+      },
+      {
+        "id": 14,
+        "speaker": "Speaker 2",
+        "start": 268.56815,
+        "end": 299.26813,
+        "text": "But I think the development of full artificial intelligence could spell the end of the human race. Once humans develop artificial intelligence, it would take off on its own and redesign itself at an ever-increasing rate. Humans, who are limited by slow biological evolution, couldn't compete and would be superseded."
+      },
+      {
+        "id": 15,
+        "speaker": "Speaker 1",
+        "start": 299.26813,
+        "end": 304.26813,
+        "text": "Thank you for those fascinating insights. Thank you very much, Professor Hawking."
+      }
+    ],
+    "corrections": [
+      {
+        "time": "00:08",
+        "speaker": "Speaker 2",
+        "changes": [
+          [
+            "AZure,",
+            "Azure,"
+          ]
+        ]
+      },
+      {
+        "time": "00:45",
+        "speaker": "Speaker 2",
+        "changes": [
+          [
+            "CI",
+            "CI/CD"
+          ]
+        ]
+      },
+      {
+        "time": "02:11",
+        "speaker": "Speaker 2",
+        "changes": [
+          [
+            "CI,",
+            "CI/CD,"
+          ]
+        ]
+      },
+      {
+        "time": "02:25",
+        "speaker": "Speaker 2",
+        "changes": [
+          [
+            "CI",
+            "CI/CD"
+          ]
+        ]
+      },
+      {
+        "time": "03:28",
+        "speaker": "Speaker 2",
+        "changes": [
+          [
+            "CI,",
+            "CI/CD,"
+          ],
+          [
+            "CI",
+            "CI/CD"
+          ]
+        ]
+      }
+    ]
+  }
+}
